@@ -1,0 +1,21 @@
+digraph Tree {
+node [shape=box, fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Married <= 0.5\ngini = 0.365\nsamples = 6155\nvalue = [4674, 1481]\nclass = <=50K"] ;
+1 [label="Cap_Gains_Losses <= 0.047\ngini = 0.116\nsamples = 3262\nvalue = [3060, 202]\nclass = <=50K"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+5 [label="gini = 0.079\nsamples = 3098\nvalue = [2971, 127]\nclass = <=50K"] ;
+1 -> 5 ;
+6 [label="Cap_Gains_Losses <= 0.293\ngini = 0.496\nsamples = 164\nvalue = [89, 75]\nclass = <=50K"] ;
+1 -> 6 ;
+7 [label="gini = 0.389\nsamples = 72\nvalue = [19, 53]\nclass = >50K"] ;
+6 -> 7 ;
+8 [label="gini = 0.364\nsamples = 92\nvalue = [70, 22]\nclass = <=50K"] ;
+6 -> 8 ;
+2 [label="Cap_Gains_Losses <= 0.051\ngini = 0.493\nsamples = 2893\nvalue = [1614, 1279]\nclass = <=50K"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="gini = 0.469\nsamples = 2506\nvalue = [1567, 939]\nclass = <=50K"] ;
+2 -> 3 ;
+4 [label="gini = 0.213\nsamples = 387\nvalue = [47, 340]\nclass = >50K"] ;
+2 -> 4 ;
+}
