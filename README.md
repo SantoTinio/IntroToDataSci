@@ -6,3 +6,11 @@ Just a bunch of Notes and Activities of my First Data Sci course
   - Sample Test is a compilation of My notes for the Basics of Pandas 
   - Week 6 contains the Application of CART algorithm
   - Also contains an activity which includes and activity in the Summative Folder
+-----
+# Pre-requisites:
+  - Pandas
+  - SKlearn
+  - Numpy
+  - Matplotlib
+  - Stattools
+  - Graphviz
